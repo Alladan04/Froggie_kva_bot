@@ -4,13 +4,13 @@ from telebot import types
 TOKEN = "5691725353:AAEY1lbBz8Hk2RRnfaXnS3t6pn59LZfReqQ"
 bot= telebot.TeleBot(TOKEN)
 FROGS = [
-"C:/Users/allad/OneDrive/Документы/Frogs/zhivotnye_cherepaha_zhaba_28996.jpg",
-"C:/Users/allad/OneDrive/Документы/Frogs/zhivotnye_korona_zhaba_1943.jpg",
-"C:/Users/allad/OneDrive/Документы/Frogs/5810bda05abd8b4e67f6158d3f499b00.jpg",
-"C:/Users/allad/OneDrive/Документы/Frogs/mesmo-what-means-word.jpeg",
-"C:/Users/allad/OneDrive/Документы/Frogs/maxresdefault.jpg",
-"C:/Users/allad/OneDrive/Документы/Frogs/1373109097_priroda-v-fokuse-19.jpg",
-"C:/Users/allad/OneDrive/Документы/Frogs/zhivotnye_zhaba_7791.jpg"]
+"C:/Users/allad/OneDrive/Документы/lab6_py_bot/Frogs/zhivotnye_cherepaha_zhaba_28996.jpg",
+"C:/Users/allad/OneDrive/Документы/lab6_py_bot/Frogs/zhivotnye_korona_zhaba_1943.jpg",
+"C:/Users/allad/OneDrive/Документы/lab6_py_bot/Frogs/5810bda05abd8b4e67f6158d3f499b00.jpg",
+"C:/Users/allad/OneDrive/Документы/lab6_py_bot/Frogs/mesmo-what-means-word.jpeg",
+"C:/Users/allad/OneDrive/Документы/lab6_py_bot/Frogs/maxresdefault.jpg",
+"C:/Users/allad/OneDrive/Документы/lab6_py_bot/Frogs/1373109097_priroda-v-fokuse-19.jpg",
+"C:/Users/allad/OneDrive/Документы/lab6_py_bot/Frogs/zhivotnye_zhaba_7791.jpg"]
 @bot.message_handler(commands = ['start'])
 def start_handler (msg):
     chat_id = msg.chat.id 
